@@ -204,6 +204,8 @@ header nav a img {
 
 .containertext {
     color: #fff;
+    font-size: 1.0rem;
+
 }
 
 
@@ -340,18 +342,18 @@ footer {
     display: flex;
     gap: 2rem;
     flex-direction: column;
-    font-size: 1.4rem;
+    font-size: 1rem;
 }
 
 .locationcontact {
     display: flex;
     flex-direction: column;
-    gap: 1rem;
-    font-size: 1.4rem;
+    gap: 1.8rem;
+    font-size: 1rem;
 }
 
 .locationcontact #N2 {
-    margin-left: 7.54rem;
+    margin-left: 5.4rem;
 }
 
 .locationcontact #WWW {
@@ -359,7 +361,7 @@ footer {
 }
 
 .footerlogo img {
-    width: 10rem;
+    width: 7rem;
 }
 
 .bottomfooter {
@@ -766,10 +768,16 @@ input[type="tel"] {
     .secondsection h1 {
         MARGIN-LEFT: 15%;
     }
-
+}
+    .firstsectiontext p {
+    width: 80%;
+    font-size: 1.5rem;
+    }
     .secondsection p {
         width: 25rem;
         margin-left: 12rem;
+        font-size: 1.6rem;
+        
     }
 
     .div {
