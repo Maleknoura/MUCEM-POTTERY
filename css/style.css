@@ -502,6 +502,7 @@ footer {
     margin-top: 90px;
 
 }
+
 /* end of page gallery */
 
 /* start of page workshop */
@@ -525,7 +526,6 @@ footer {
     color: rgb(250, 246, 246);
     text-align: center;
     font-size: 30px;
-    margin-top: 5%;
 }
 
 .workshopimg {
@@ -541,9 +541,13 @@ footer {
     border-radius: 45px;
     width: 220px;
     height: 49px;
-    margin-left: 470px;
-    margin-top: 60px;
     border: none;
+    transition:ease background-color 1s ;
+}
+.workshop-button:hover {
+    background-color: #fff;
+    color: rgba(139, 69, 19, 0.71);
+    transition:ease background-color 2s;
 }
 
 .workshop2 {
@@ -555,7 +559,16 @@ footer {
 }
 
 .backfirstsection {
-    width: auto;
+    width: 60%;
+    background-color: #cccccc4e;
+    margin: auto;
+    padding-bottom: 2rem;
+    margin-top: 3rem;
+    border-radius: 1rem;
+    display: flex;
+    gap: 2rem;
+    flex-direction: column;
+    align-items: center;
 }
 
 /* form */
@@ -567,6 +580,9 @@ footer {
     border: 1px solid #ccc;
     border-radius: 5px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+.workshop-title1{
+    margin-bottom: 0.5rem;
 }
 
 
@@ -601,7 +617,7 @@ input[type="tel"] {
     border: none;
     border-radius: 10px;
     cursor: pointer;
-    margin-left: 4rem;
+    margin: auto;
 }
 
 .formform {
@@ -670,6 +686,11 @@ input[type="tel"] {
     font-size: 5rem;
     color: white;
     display: none;
+}   
+#bookingForm {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
 }
 
 @media (max-width:768px) {
@@ -770,15 +791,11 @@ input[type="tel"] {
     }
 
 
-    .workshop-button {
-        margin-left: 6.25rem;
-        margin-top: 2.4rem;
-    }
-
+    
     .workshop {
         height: 60VH;
     }
-
+    
     .titless {
         font-size: 2rem;
     }
@@ -799,21 +816,19 @@ input[type="tel"] {
     }
 
     .topfooter {
-        flex-direction: column;
-        gap: 4rem;
+
+        gap: 2rem;
     }
 
-    .workshop-button {
-        margin-left: 35%;
-        margin-top: 5%;
-    }
-
+ 
     .workshop2 {
         height: auto;
     }
 
     .atelier1 {
-        margin-left: 15%;
+        text-align: center;
+        margin-right: 0;
+        margin-bottom: 1rem;
     }
 
     .frsection {
@@ -821,6 +836,38 @@ input[type="tel"] {
     }
 
     .atelier {
-        margin-right: 30%;
+        margin-right: auto;
+    }
+
+    .barbar ul {
+        font-size: 1rem;
+    }
+
+    .locationcontact {
+
+        font-size: 1rem;
+    }
+
+    .footerlogo img {
+        width: 6rem;
+    }
+
+    .bottomfooter {
+
+        padding: 1rem;
+    }
+
+    #bookingForm {
+        display: flex;
+        flex-direction: column;
+        gap: 0.5rem;
+    }
+    .backfirstsection {
+        width: max-content;
+        background-color: #cccccc4e;
+        margin: auto;
+        padding-bottom: 2rem;
+        margin-top: 3rem ;
+        border-radius: 1rem;
     }
 }

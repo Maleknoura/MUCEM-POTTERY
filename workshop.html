@@ -43,18 +43,18 @@
         <div class="formform">
             <div class="atelier">
                 <h2 class="workshop-title1">Booking</h2>
-                <form id="bookingForm">
+                <form id="bookingForm" onsubmit="return validateForm()">
                     <div class="form-group">
-                        <input type="text" id="nom" name="nom" placeholder="ENTER YOUR NAME" required>
+                        <input type="text" id="firstName" name="nom" placeholder="ENTER YOUR NAME" required>
                     </div>
                     <div class="form-group">
-                        <input type="text" id="prenom" name="prenom" placeholder="ENTER YOUR LAST NAME" required>
+                        <input type="text" id="lastName" name="prenom" placeholder="ENTER YOUR LAST NAME" required>
                     </div>
                     <div class="form-group">
-                        <input type="email" id="mail" name="mail" placeholder="ENTER YOUR MAIL" required>
+                        <input type="email" id="email" name="mail" placeholder="ENTER YOUR MAIL" required>
                     </div>
                     <div class="form-group">
-                        <input type="tel" id="phone" name="phone" placeholder="ENTER YOUR PHONE NUMBER" required>
+                        <input type="tel" id="phoneNumber" name="phone" placeholder="ENTER YOUR PHONE NUMBER" required>
                     </div>
                     <div class="form-group">
                         <input type="text" id="cin" name="cin" placeholder="ENTER YOUR CIN" required>
